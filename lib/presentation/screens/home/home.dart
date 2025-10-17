@@ -28,6 +28,7 @@ class HomeScreen extends StatelessWidget {
                 onTap: (){
                   Navigator.pushNamed(context, res.patch);
                 },
+
                 leading: Icon(res.icon),
                 );
 
