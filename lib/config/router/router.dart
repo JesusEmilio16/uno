@@ -61,6 +61,13 @@ class Routers {
       icon: Icons.all_inclusive,
       context: (context) => const InfinityScreen(),
     ),
+    AppRouter(
+      patch: "dialog",
+      title: "Dialog",
+      description: "cambio a dialog",
+      icon: Icons.abc,
+      context: (context) => const DialogScreen(),
+    )
   ];
 
   static route() => {for (var page in pages) page.patch: page.context};
